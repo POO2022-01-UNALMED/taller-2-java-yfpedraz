@@ -4,6 +4,10 @@ class Motor{
     String tipo;
     int registro;
 
+    public Motor(){
+        
+    }
+
     public Motor(int cilindros,String tipo,int registro){
         this.registro=registro;
         this.numeroCilindros=cilindros;

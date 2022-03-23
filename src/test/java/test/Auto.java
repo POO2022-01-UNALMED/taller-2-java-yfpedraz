@@ -8,6 +8,10 @@ class Auto{
     int registro;
     static int cantidadCreados =0;
 
+    public Auto(){
+        
+    }
+    
     public Auto(String modelo,int precio,Asiento[] lista, String marca, Motor motor, int registro){
         this.modelo=modelo;
         this.precio=precio;

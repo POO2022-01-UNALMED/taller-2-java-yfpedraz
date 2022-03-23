@@ -4,6 +4,11 @@ class Asiento{
     int precio=0;
     int registro;
 
+    public Asiento(){
+
+    }
+
+
     public Asiento(String color, int precio,int registro){
         this.registro=registro;
         this.color=color;
